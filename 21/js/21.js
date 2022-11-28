@@ -1,0 +1,16 @@
+var s1=prompt("enter the student1");
+s1=parseFloat(s1/100);
+var s2=prompt("enter the student2");
+s2=parseFloat(s2/100);
+var s3=prompt("enter the student3");
+s3=parseFloat(s3/100);
+var tp1=100;
+var tp2=150;
+var tp3=200;
+var st1=s1*tp1;
+var st2=s2*tp2;
+var st3=s3*tp3;
+var total=st1+st2+st3;
+var markt=tp1+tp2+tp3;
+var per=(total/markt)*100;
+alert(per);
